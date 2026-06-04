@@ -11,13 +11,13 @@
 
 ```bash
 npm install
-npm run dev      # http://localhost:5174
+npm run dev      # http://localhost:5042
 ```
 
 Create `.env`:
 
 ```env
-VITE_API_URL=http://localhost:5000/api/v1
+VITE_API_URL=http://localhost:5040/api/v1
 ```
 
 ---

@@ -30,19 +30,19 @@ Same as the main web app: React 19 + TypeScript, Vite 8, Tailwind CSS v4, Zustan
 
 ```bash
 npm install
-npm run dev      # http://localhost:5174
+npm run dev      # http://localhost:5042
 ```
 
 Create `.env` to point at your API:
 
 ```env
-VITE_API_URL=http://localhost:5000/api/v1
+VITE_API_URL=http://localhost:5040/api/v1
 ```
 
 ## Commands
 
 ```bash
-npm run dev      # Vite dev server (port 5174)
+npm run dev      # Vite dev server (port 5042)
 npm run build    # tsc -b && vite build → dist/
 npm run lint     # ESLint
 npm run preview  # Preview production build
